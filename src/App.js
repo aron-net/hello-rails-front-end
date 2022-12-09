@@ -1,14 +1,9 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Greeting from './Greeting';
+
+import SignUpPage from './page/SingUpPage';
 
 const App = () => (
-  <div>
-    <h2 className="h2">Refresh page to display random message</h2>
-    <Routes>
-      <Route path="/" element={<Greeting />} />
-    </Routes>
-  </div>
+  <SignUpPage />
 );
 
 export default App;
